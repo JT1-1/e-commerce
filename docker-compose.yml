@@ -33,7 +33,7 @@ services:
         ports:
             - "3309:3306"
         environment:
-            MYSQL_DATABASE: e-comerce
+            MYSQL_DATABASE: e-comercia
             MYSQL_ROOT_PASSWORD: password
         volumes:
             - './storage/db-data:/var/lib/mysql'
