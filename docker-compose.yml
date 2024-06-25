@@ -39,4 +39,3 @@ services:
             - './storage/db-data:/var/lib/mysql'
         networks:
             - e-comerce
-
